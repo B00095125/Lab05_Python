@@ -12,7 +12,7 @@ The code asks the user to enter a card number and the code will determine if the
 -Every odd number in the card number is multiplied by two.
 -Any numbers over 10 are minused by 9. 
 -these numbers, and the numbers that were not multiplied by two are then all summed.
--mod 10 is then used to check if the card is valid. If this is zero, the card is valid.    
+-mod 10 is then used to check if the card is valid. If this is zero, the card is valid. If it is not zero the card is invalid.   
 
 -Determine Card Vendor-
 This was the hardest part of this code to complete. There are a variety of vendors that the card number must be checked against. A series of if statements are used to calculate this portion of the code. The if statements check the beginning portion of the card number. if the first one or two characters equal a certain value, this means they belong to a certain vendor. For example, 34 meant American Express. For larger numbers and ranges, an 'and' was used to check if the first three/four numbers were in a given range. This was how the card vendors were decided. This portion was completed at the end of the code, as an exit function was used to stop the program after a vendor was determined. 
