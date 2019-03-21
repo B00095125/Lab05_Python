@@ -3,7 +3,6 @@
 #Author Andrew Leonard#
 
 - Challenge 1 & 2 -
-
 These were essentially completed already, written by Mark Cummins. For challenge 1, nothing was changed. For challenge 2, the ciphertext was just changed in order to decrypt the message. This can be seen on line 30. 
 
 - Challenge 3 -
