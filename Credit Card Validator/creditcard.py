@@ -8,7 +8,7 @@ Dictionary = {
     34: "American Express",
     300: "Diners Club - Carte Blance"  ,
     36: "Diners Club - International"  ,
-    54:"Diners club - USA & Canada",
+    54:"Diners Club - USA & Canada",
     6011:"Discover",
     637:"Instapayment",
     3528:"JCB",
@@ -24,7 +24,7 @@ genCard = {
     "American Express": 34,
     "Diners Club - Carte Blance": 300,
     "Diners Club - International": 36,
-    "Diners club - USA & Canada": 54,
+    "Diners Club - USA & Canada": 54,
     "Discover":6011,
     "Instapayment":637,
     "JCB":3528,
@@ -122,7 +122,7 @@ if pickacard == "Diners Club - International":
 
 ##Generate Diners Club Card
 if pickacard == "Diners Club - USA & Canada":
-    print("Card start: " + str(genCard["Diners club - USA & Canada"]))
+    print("Card start: " + str(genCard["Diners Club - USA & Canada"]))
     card = []
     for i in range(13):
         number = random.randint(1, 9)
@@ -145,7 +145,7 @@ if pickacard == "Discover":
     card.insert(0, 6)
 
 #Generate Instapayment card
-if pickacard == "InstaPayment":
+if pickacard == "Instapayment":
     print("Card start: " + str(genCard["Instapayment"]))
     card = []
     for i in range(12):
